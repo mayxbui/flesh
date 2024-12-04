@@ -1,22 +1,22 @@
 # flesh
 A Murder Mystery Text-Based Adventure Game
 
-## Introduction
+### Introduction
 "Flesh" is a gripping text-based murder mystery game. You are a lone detective locked inside a house where a gruesome crime has taken place. The smell of fresh blood lingers in the air as you search for evidence, piece together clues, and uncover the truth behind a chilling murder.
 Will you solve the case before time runs out? Or will the killer remain in the shadows and run wild?
 
-## Game Objective
+### Game Objective
 Your mission is to:
 
-*Explore the crime scene.
-*Collect evidence.
-*Interview potential witnesses (if any).
-*Piece together the clues.
-*Solve the mystery and reveal the murderer.
+* Explore the crime scene.
+* Collect evidence.
+* Interview potential witnesses (if any).
+* Piece together the clues.
+* Solve the mystery and reveal the murderer.
 
 Be careful—some evidence may mislead you, and each decision impacts your investigation.
 
-## Controls
+### Controls
 |**Command**|**Description**|
 |-----------|------------------------------------|
 |Look| prints a description of your surroundings.|
@@ -28,7 +28,7 @@ Be careful—some evidence may mislead you, and each decision impacts your inves
 |Go (North/South/East/West)| Travel in that direction.|
 |Quit|Exit the game.|
 
-## Credit
+### Credit
 **Game Design & Development:** May Bui
 
 
