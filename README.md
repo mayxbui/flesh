@@ -1,5 +1,5 @@
 # flesh
-A Murder Mystery Text-Based Adventure Game
+> A Murder Mystery Text-Based Adventure Game
 
 ### Introduction
 "Flesh" is a gripping text-based murder mystery game. You are a lone detective locked inside a house where a gruesome crime has taken place. The smell of fresh blood lingers in the air as you search for evidence, piece together clues, and uncover the truth behind a chilling murder.
