@@ -91,28 +91,28 @@ public class Driver {
     }
 
     public static void help() {
-        System.out.println("List of available commands:");
-        System.out.println("+ 'Look' - prints a description of your surroundings.\n" + //
-                "+ 'Inventory' - lists of object in your belonging.\n" + //
-                "+ 'Examine (item/container)' - prints a description of the item.\n" + //
-                "+ 'Take (item)' - to take an item and put it in your inventory.\n" + //
-                "+ 'Take (item) from (container)' - to take an item from a container and put it in your inventory.\n" + //
-                "+ 'Put (item) in (container)' - to put an item in a container.\n" + //
-                "+ 'Drop (item)' - to take an item out of your inventory and drop it.\n" + //
-                "+ 'Go (North/South/East/West)' - to travel in that direction.\n" + //
-                "+ 'Quit' - to exit the game.");
+        System.out.println("List of available commands:\n" +
+                "+ 'Look' - Prints a description of your surroundings.\n" + //
+                "+ 'Inventory' - Lists of objects in your belongings.\n" + //
+                "+ 'Examine (item/container)' - Prints a description of the item.\n" + //
+                "+ 'Take (item)' - Take an item and put it in your inventory.\n" + //
+                "+ 'Take (item) from (container)' - Take an item from a container and put it in your inventory.\n" + //
+                "+ 'Put (item) in (container)' - Put an item in a container.\n" + //
+                "+ 'Drop (item)' - Take an item out of your inventory and drop it.\n" + //
+                "+ 'Go (North/South/East/West)' - Travel in that direction.\n" + //
+                "+ 'Quit' - Exit the game.");
     }
 
     public static void main(String[] args) {
         createWorld();
 
         Scanner scan = new Scanner(System.in);
+        System.out.println("Welcome to Flesh.\n\n" +
+                currentLocation.getName() +
+                "\nYou are in the living room where the crime happened.\n" +
+                "Enter 'help' for more information.\n");
         while (true) {
-            System.out.println("Welcome to Flesh.\n\n" +
-                    currentLocation.getName() +
-                    "\nYou are in the living room where the crime happens.\n" +
-                    "Enter 'help' for more information.\n" +
-                    "Enter command: ");
+            System.out.println("Enter command: ");
             String command = scan.nextLine();
 
             String[] splt_command = command.split(" ");
