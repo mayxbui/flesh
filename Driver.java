@@ -108,7 +108,9 @@ public class Driver {
 
         Scanner scan = new Scanner(System.in);
         while (true) {
-            System.out.println(currentLocation.getName() + "\nYou are in the living room where the crime happens.\n" +
+            System.out.println("Welcome to Flesh.\n\n" +
+                    currentLocation.getName() +
+                    "\nYou are in the living room where the crime happens.\n" +
                     "Enter 'help' for more information.\n" +
                     "Enter command: ");
             String command = scan.nextLine();
