@@ -20,7 +20,7 @@ Be careful—some evidence may mislead you, and each decision impacts your inves
 |**Command**|**Description**|
 |-----------|------------------------------------|
 |Look| prints a description of your surroundings.|
-|Inventory' - Lists of objects in your belongings.|
+|Inventory|Lists of objects in your belongings.|
 |Examine (item/container)|Prints a description of the item.|
 |Take (item)| Take an item and put it in your inventory.|
 |Take (item) from (container)|Take an item from a container and put it in your inventory.|
